@@ -1,0 +1,11 @@
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\bin\Debug\My-Calculator.exe.config
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\bin\Debug\My-Calculator.exe
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\bin\Debug\My-Calculator.pdb
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\obj\Debug\My-Calculator.csproj.AssemblyReference.cache
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\obj\Debug\My-Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\obj\Debug\My_Calculator.Form1.resources
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\obj\Debug\My_Calculator.Properties.Resources.resources
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\obj\Debug\My-Calculator.csproj.GenerateResource.cache
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\obj\Debug\My-Calculator.csproj.CoreCompileInputs.cache
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\obj\Debug\My-Calculator.exe
+C:\Users\m.reza\source\repos\My-Calculator\My-Calculator\obj\Debug\My-Calculator.pdb
