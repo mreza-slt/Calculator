@@ -32,10 +32,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtNumber1 = new System.Windows.Forms.NumericUpDown();
             this.txtNumber2 = new System.Windows.Forms.NumericUpDown();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnPlus = new System.Windows.Forms.Button();
+            this.btnMinus = new System.Windows.Forms.Button();
+            this.btnMultyple = new System.Windows.Forms.Button();
+            this.btnDivide = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.txtNumber1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtNumber2)).BeginInit();
             this.SuspendLayout();
@@ -57,7 +57,6 @@
             this.label2.Size = new System.Drawing.Size(60, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "عدد دوم :";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // txtNumber1
             // 
@@ -75,52 +74,55 @@
             this.txtNumber2.Size = new System.Drawing.Size(301, 23);
             this.txtNumber2.TabIndex = 3;
             // 
-            // button1
+            // btnPlus
             // 
-            this.button1.Location = new System.Drawing.Point(33, 85);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(62, 28);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnPlus.Location = new System.Drawing.Point(33, 85);
+            this.btnPlus.Name = "btnPlus";
+            this.btnPlus.Size = new System.Drawing.Size(62, 28);
+            this.btnPlus.TabIndex = 4;
+            this.btnPlus.Text = "+";
+            this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
-            // button2
+            // btnMinus
             // 
-            this.button2.Location = new System.Drawing.Point(101, 84);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(62, 28);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnMinus.Location = new System.Drawing.Point(101, 84);
+            this.btnMinus.Name = "btnMinus";
+            this.btnMinus.Size = new System.Drawing.Size(62, 28);
+            this.btnMinus.TabIndex = 5;
+            this.btnMinus.Text = "-";
+            this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
-            // button3
+            // btnMultyple
             // 
-            this.button3.Location = new System.Drawing.Point(169, 85);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(62, 28);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "*";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnMultyple.Location = new System.Drawing.Point(169, 85);
+            this.btnMultyple.Name = "btnMultyple";
+            this.btnMultyple.Size = new System.Drawing.Size(62, 28);
+            this.btnMultyple.TabIndex = 6;
+            this.btnMultyple.Text = "*";
+            this.btnMultyple.UseVisualStyleBackColor = true;
+            this.btnMultyple.Click += new System.EventHandler(this.btnMultyple_Click);
             // 
-            // button4
+            // btnDivide
             // 
-            this.button4.Location = new System.Drawing.Point(237, 84);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(62, 28);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "/";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnDivide.Location = new System.Drawing.Point(237, 84);
+            this.btnDivide.Name = "btnDivide";
+            this.btnDivide.Size = new System.Drawing.Size(62, 28);
+            this.btnDivide.TabIndex = 7;
+            this.btnDivide.Text = "/";
+            this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(390, 131);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnDivide);
+            this.Controls.Add(this.btnMultyple);
+            this.Controls.Add(this.btnMinus);
+            this.Controls.Add(this.btnPlus);
             this.Controls.Add(this.txtNumber2);
             this.Controls.Add(this.txtNumber1);
             this.Controls.Add(this.label2);
@@ -144,10 +146,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown txtNumber1;
         private System.Windows.Forms.NumericUpDown txtNumber2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnPlus;
+        private System.Windows.Forms.Button btnMinus;
+        private System.Windows.Forms.Button btnMultyple;
+        private System.Windows.Forms.Button btnDivide;
     }
 }
 
